@@ -6,7 +6,7 @@ class MyLinkedList {
         Node next;
         public Node(int val){ 
             this.val=val;
-            this.next=null;
+            this.next=null; 
         }
     }
     public MyLinkedList() {
