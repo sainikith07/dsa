@@ -8,7 +8,7 @@ class MyLinkedList {
             this.val=val;
             this.next=null; 
         }
-    }
+    } 
     public MyLinkedList() {
         head=null;
         len=0;
