@@ -1,6 +1,5 @@
 class Solution {
     public int longestKSubstr(String s, int k) {
-        // code here
         int l=0,n=s.length(),maxi=-1;
         HashMap<Character,Integer> hm=new HashMap<>();
         for(int i=0;i<n;i++){
